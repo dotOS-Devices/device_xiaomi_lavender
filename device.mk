@@ -26,6 +26,10 @@ $(call inherit-product, vendor/xiaomi/lavender/lavender-vendor.mk)
 # Vendor properties
 -include $(LOCAL_PATH)/vendor_prop.mk
 
+# Enable extra vendor libs
+ENABLE_EXTRA_VENDOR_LIBS := true
+PRODUCT_PACKAGES += vendor-extra-libs
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
