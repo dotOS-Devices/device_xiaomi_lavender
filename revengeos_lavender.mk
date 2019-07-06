@@ -27,7 +27,7 @@ TARGET_GAPPS_ARCH := arm64
 $(call inherit-product, vendor/revengeos/config/common.mk)
 $(call inherit-product, vendor/revengeos/config/gsm.mk)
 IS_PHONE := true
-
+REVENGEOS_BUILDTYPE := OFFICIAL
 PRODUCT_NAME := revengeos_lavender
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := lavender
