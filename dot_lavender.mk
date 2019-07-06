@@ -22,13 +22,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit from lavender device
 $(call inherit-product, device/xiaomi/lavender/device.mk)
 
+# Inherit some common dotOS stuff
+$(call inherit-product, vendor/dot/config/common.mk)
+
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_GAPPS_ARCH := arm64
-$(call inherit-product, vendor/revengeos/config/common.mk)
-$(call inherit-product, vendor/revengeos/config/gsm.mk)
-IS_PHONE := true
-REVENGEOS_BUILDTYPE := OFFICIAL
-PRODUCT_NAME := revengeos_lavender
+PRODUCT_NAME := dot_lavender
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := lavender
 PRODUCT_MANUFACTURER := Xiaomi

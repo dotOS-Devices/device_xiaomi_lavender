@@ -1,1 +1,1 @@
-add_lunch_combo revengeos_lavender-userdebug
+add_lunch_combo dot_lavender-userdebug
