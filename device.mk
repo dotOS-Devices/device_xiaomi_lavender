@@ -99,3 +99,11 @@ PRODUCT_PACKAGES += \
 
 # Vendor files
 $(call inherit-product, vendor/xiaomi/lavender/lavender-vendor.mk)
+
+# XiaomiParts
+$(call inherit-product-if-exists, vendor/XiaomiParts/xiaomiparts.mk)
+
+# GoogleCameraPort
+ifeq ($(WITH_GAPPS),true)
+$(call inherit-product-if-exists, vendor/GoogleCameraPort/GoogleCamera.mk)
+endif
