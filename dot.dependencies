@@ -39,7 +39,7 @@
     "remote": "github",
     "repository": "ChrisW444/vendor_XiaomiParts",
     "target_path": "vendor/XiaomiParts",
-    "branch": "4.4-kernel"
+    "branch": "test"
   },
   {
     "remote": "github",
