@@ -100,8 +100,8 @@ PRODUCT_PACKAGES += \
 # Vendor files
 $(call inherit-product, vendor/xiaomi/lavender/lavender-vendor.mk)
 
-# XiaomiParts
-$(call inherit-product-if-exists, vendor/XiaomiParts/xiaomiparts.mk)
+# Dirac
+$(call inherit-product-if-exists, vendor/xiaomi/dirac/dirac.mk)
 
 # GoogleCameraPort
 ifeq ($(WITH_GAPPS),true)

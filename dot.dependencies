@@ -37,9 +37,8 @@
   },
   {
     "remote": "github",
-    "repository": "ChrisW444/vendor_XiaomiParts",
-    "target_path": "vendor/XiaomiParts",
-    "branch": "test"
+    "repository": "ririxichan/vendor_xiaomi_dirac",
+    "target_path": "vendor/xiaomi/dirac"
   },
   {
     "remote": "github",
